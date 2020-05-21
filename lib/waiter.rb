@@ -25,7 +25,7 @@ class Waiter
       meal_a.tip <=> meal_b.tip 
     end
     
-    best_tipped_meal.customer
+    best_tipper_meal.customer
   end
   
   def new_meal(customer, total, tip=0)
